@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto&display=swap");
+
+header {
+  display: flex;
+  justify-content: center;
+  background: #bfbfbf;
+  border: solid;
+  margin: 20px 20px 0px 20px;
+  padding: 17px;
+  box-shadow: 0px 0px 13px 1px rgb(0 0 0 / 78%);
+}
+
+aside {
+  width: 27%;
+  background: #bfbfbf;
+  border: solid;
+  margin: 20px 20px 0px 20px;
+  padding: 0px 17px;
+  float: left;
+  box-shadow: 0px 0px 13px 1px rgb(0 0 0 / 78%);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border: inset;
+  
+}
+.profile-picture {
+  height: 200px;
+  width: 200px;
+  margin-right: 15px;
+}
+
+.hgroup {
+  display: flex;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.justify-text {
+  text-align: justify;
+}
+
+.main-content {
+  background: #bfbfbf;
+  border: solid;
+  margin: 20px 20px 0px 0px;
+  padding: 0px 19px;
+  box-shadow: 0px 0px 13px 1px rgb(0 0 0 / 78%);
+}
+
+h2 {
+  margin: 0px;
+}
+
+h1 {
+  margin-bottom: 0px;
+}
+
+main {
+  display: flex;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background: #bfbfbf;
+  border: solid;
+  margin: 20px 20px 0px 20px;
+  padding: 17px;
+  box-shadow: 0px 0px 13px 1px rgb(0 0 0 / 78%);
+}
