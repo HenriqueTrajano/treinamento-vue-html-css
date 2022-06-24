@@ -6,7 +6,7 @@
 
 <h2 align="center">Links do GitHub Pages</h2>
 <ul align="center">
-  <p>Currículo Bootstrap --> https://henriquetrajano.github.io/treinamento-vue-html-css/template-bootstrap-curriculo/</p>
-  <p>Currículo HTML+CSS  --> https://henriquetrajano.github.io/treinamento-vue-html-css/curriculo-html-css/</p>
-  <p>Form test --> https://henriquetrajano.github.io/treinamento-vue-html-css/exercicio-formulario/</p>
+  <p>Currículo Bootstrap &#10132; <a href="https://henriquetrajano.github.io/treinamento-vue-html-css/template-bootstrap-curriculo/">Clique aqui!<a/></p>
+  <p>Currículo HTML+CSS  &#10132; <a href="https://henriquetrajano.github.io/treinamento-vue-html-css/curriculo-html-css/">Clique aqui!<a/></p>
+  <p>Form test &#10132; <a href="https://henriquetrajano.github.io/treinamento-vue-html-css/exercicio-formulario/">Clique aqui!<a/></p>
 </ul>
