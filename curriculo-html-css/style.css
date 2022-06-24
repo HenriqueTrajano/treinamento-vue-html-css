@@ -5,19 +5,19 @@ header {
   justify-content: center;
   background: #bfbfbf;
   border: solid;
-  margin: 20px 20px 0px 20px;
-  padding: 17px;
-  box-shadow: 0px 0px 13px 1px rgb(0 0 0 / 78%);
+  margin: 1.25rem 1.25rem 0rem 1.25rem;
+  padding: 1.063rem;
+  box-shadow: 0rem 0rem 0.813rem 0.063rem rgb(0 0 0 / 78%);
 }
 
 aside {
-  width: 27%;
+  width: 28vw;
   background: #bfbfbf;
   border: solid;
-  margin: 20px 20px 0px 20px;
-  padding: 0px 17px;
+  margin: 1.25rem 1.25rem 0rem 1.25rem;
+  padding: 0rem 1.063rem;
   float: left;
-  box-shadow: 0px 0px 13px 1px rgb(0 0 0 / 78%);
+  box-shadow: 0rem 0rem 0.813rem 0.063rem rgb(0 0 0 / 78%);
 }
 
 img {
@@ -27,9 +27,9 @@ img {
   
 }
 .profile-picture {
-  height: 200px;
-  width: 200px;
-  margin-right: 15px;
+  height: 12.5rem;
+  width: 12.5rem;
+  margin-right: 0.938rem;
 }
 
 .hgroup {
@@ -38,7 +38,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 
 h3 {
@@ -52,17 +52,22 @@ h3 {
 .main-content {
   background: #bfbfbf;
   border: solid;
-  margin: 20px 20px 0px 0px;
-  padding: 0px 19px;
-  box-shadow: 0px 0px 13px 1px rgb(0 0 0 / 78%);
+  margin: 1.25rem 1.25rem 0rem 0rem;
+  padding: 0rem 1.188rem;
+  box-shadow: 0rem 0rem 0.813rem 0.063rem rgb(0 0 0 / 78%);
+  width: 100%;
+}
+
+a {
+  color: #4a4242;
 }
 
 h2 {
-  margin: 0px;
+  margin: 0rem;
 }
 
 h1 {
-  margin-bottom: 0px;
+  margin-bottom: 0rem;
 }
 
 main {
@@ -74,7 +79,7 @@ footer {
   justify-content: center;
   background: #bfbfbf;
   border: solid;
-  margin: 20px 20px 0px 20px;
-  padding: 17px;
-  box-shadow: 0px 0px 13px 1px rgb(0 0 0 / 78%);
+  margin: 1.25rem 1.25rem 0rem 1.25rem;
+  padding: 1.063rem;
+  box-shadow: 0rem 0rem 0.813rem 0.063rem rgb(0 0 0 / 78%);
 }
