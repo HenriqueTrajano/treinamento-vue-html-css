@@ -1,0 +1,10 @@
+RDAsys
+
+Reporta para o governo
+Ter um relatorio completinho para o governo
+gerentes da dell pesquisa ou desenvlvimento ---- Quem usa
+
+razor --> Vue
+dotnet --> dotnet.Core
+
+parecido com o trello --> 
