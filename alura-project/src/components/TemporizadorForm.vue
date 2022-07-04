@@ -2,23 +2,9 @@
   <div class="is-flex is-align-items-center is-justify-content-space-between">
     <CronometroComplet :tempoSegundos="tempoSegundos" />
 
-
     <BotaoFormazada @butaoClicado="iniciarCrono" iconeButaoNome="play" textoButao="play" :desabilitado="cronometroRodando"/>
     <BotaoFormazada @butaoClicado="finalizarCrono" iconeButaoNome="stop" textoButao="stop" :desabilitado="!cronometroRodando"/>
 
-
-    <!-- <button class="button" @click="iniciarCrono" :disabled="cronometroRodando">
-      <span class="icon">
-        <i class="fas fa-play"></i>
-      </span>
-      <span>play</span>
-    </button>
-    <button class="button" @click="finalizarCrono" :disabled="!cronometroRodando">
-      <span class="icon">
-        <i class="fas fa-stop"></i>
-      </span>
-      <span>stop</span>
-    </button> -->
   </div>
 </template>
 

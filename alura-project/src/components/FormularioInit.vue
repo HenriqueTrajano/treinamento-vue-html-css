@@ -1,5 +1,5 @@
 <template>
-  <div class="box">
+  <div class="box formulario">
     <div class="columns">
       <div class="column is-8" role="form" aria-label="Formulario bonitao">
         <input
@@ -23,18 +23,31 @@ import TemporizadorForm from "./TemporizadorForm.vue";
 export default defineComponent({
   components: { TemporizadorForm },
   name: "FormularioInit",
+  emits: [
+    'salvarTarefa'
+  ],
   data () {
     return {
       descricaozada: '',
     }
   },
   methods: {
+    // Objeto literal passado seria uma tarefa
     finalizarTarefa(tempo: number): void {
-      console.log(tempo);
-      console.log(this.descricaozada);
+      this.$emit("salvarTarefa", {
+        duracaoSegundos: tempo,
+        descricao: this.descricaozada
+      });
       this.descricaozada = '';
     }
   }
 });
 </script>
+
+<style>
+  .formulario {
+    color: var(--texto-primario);
+    background-color: var(--bg-primario);
+  }
+</style>
 
