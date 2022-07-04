@@ -15,7 +15,7 @@
           :tarefa="tarefa"
         />
         <BoxAmarela v-if="listaVazia">
-          Amigo hoje vc ta no crime em...
+          Amigo hoje vc ta no crime em nao fez nada...
         </BoxAmarela>
       </div>
     </div>
