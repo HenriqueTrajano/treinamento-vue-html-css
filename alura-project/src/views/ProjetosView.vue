@@ -5,7 +5,7 @@
         <form @submit.prevent="salvarProjeto">
             <div class="field">
                 <label for="nome-projeto" class="label">
-                    Nome do Projeto
+                    NOME DO PROJETO
                 </label>
                 <input type="text" class="input" v-model="nomeProjeto" id="nome-projeto">
             </div>
@@ -62,7 +62,10 @@ export default defineComponent({
             this.projetos.push(projeto);
             this.nomeProjeto = '';
         }
-    }
+    }, 
+    // setup () {
+    //     const store =
+    // }
 })
 </script>
 
